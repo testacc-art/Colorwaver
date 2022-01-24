@@ -54,7 +54,7 @@ jobs:
       - run: |
           yarn install
           echo "Add rxjs"
-          yarn add rxjs
+          yarn add rxjs@6.6.6
         timeout-minutes: 4
 
 
